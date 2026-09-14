@@ -1,0 +1,42 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage --coverageThreshold='{\"global\": {\"branches\": 80, \"functions\": 80, \"lines\": 80, \"statements\": 80}}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.103.0",
+    "axios": "^1.17.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "docx": "^9.7.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "joi": "^18.1.2",
+    "jsonwebtoken": "^9.0.3",
+    "jszip": "^3.10.1",
+    "mammoth": "^1.12.0",
+    "multer": "^2.1.1",
+    "p-limit": "^5.0.0",
+    "pdf-parse": "^1.1.4",
+    "pdfkit": "^0.16.0",
+    "pg": "^8.11.0",
+    "unzipper": "^0.12.3",
+    "winston": "^3.19.0",
+    "xml2js": "^0.6.2"
+  }
+}
